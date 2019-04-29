@@ -1,0 +1,51 @@
+.nav-text-color-one {
+    color: #EFF7CF;
+}
+.nav-text-color-two {
+    color: #AF1B3F !important;
+}
+.nav-text-color-three {
+    color: #04A777 !important;
+}
+.nav-text-color-four {
+    color: #343A40 !important;
+}
+.bg-one {
+    background-color: #DDDFDB;
+}
+
+.bg-two {
+    background-color: #343A40;
+}
+body {
+    background-color: #DDDFDB;
+}
+.app-font {
+    font-family: 'Raleway', sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.border-color-three {
+    border: 5px solid #04A777;
+    border-radius: 1%;
+}
+.border-color-one {
+    border-bottom: 1px solid #343A40;
+}
+.border-color-two {
+    border-bottom: 1px solid #AF1B3F;
+}
+.bottom-white {
+    border-bottom: 1px solid #EFF7CF !important;
+}
+.display-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.display-even {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
