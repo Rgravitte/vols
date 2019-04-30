@@ -10,10 +10,10 @@
                 <div class="card-body">
                     <ul class="list-unstyled">
                         <li class="nav-text-color-one"><b class="nav-text-color-one">User: </b>{{ Auth::user()->name }}</li>
-                        <li class="nav-text-color-one">Account Balance:</li>
+                    <li class="nav-text-color-one">Account Balance:  ${{ Auth::user()->account_balance['balance'] }}</li>
                         <li class="nav-text-color-one">Pending:</li>
                         <li class="nav-text-color-one">Friends:</li>
-                        <li class="nav-text-color-one">Settings</li>
+                        <li class="nav-text-color-one">Accounnt Settings</li>
                     </ul>
                 </div>
             </div>

@@ -12,8 +12,8 @@ class AccountBalance extends Model
      *
      * @var array
      */
-    protected $fillable = [
-        'balance'
+    protected $attributes = [
+        'balance' => 0.00
     ];
 
     public function user()

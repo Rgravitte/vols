@@ -40,5 +40,6 @@ class User extends Authenticatable
     public function account_balance()
     {
         return $this->hasOne('App\AccountBalance');
+
     }
 }
