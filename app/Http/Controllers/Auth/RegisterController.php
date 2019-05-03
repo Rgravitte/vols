@@ -72,6 +72,7 @@ class RegisterController extends Controller
         ]);
             $user->account_balance()->create();
 
+            auth()->login($user);
 
         return $user;
     }

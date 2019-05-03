@@ -12,7 +12,7 @@
                         <li class="nav-text-color-one"><b class="nav-text-color-one">User: </b>{{ Auth::user()->name }}</li>
                     <li class="nav-text-color-one">Account Balance:  ${{ Auth::user()->account_balance['balance'] }}</li>
                         <li class="nav-text-color-one">Pending:</li>
-                        <li class="nav-text-color-one">Friends:</li>
+                    <li class="nav-text-color-one">Friends: <a href="/friends">{{ Auth::user()->friend_requests()->count() }}</a></li>
                         <li class="nav-text-color-one">Accounnt Settings</li>
                     </ul>
                 </div>
